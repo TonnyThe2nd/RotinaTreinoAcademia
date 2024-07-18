@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package frameTreino.treinoExistente;
 
 import agenda.bancoDeDados.DBConnect;
@@ -16,6 +12,57 @@ import javax.swing.JLabel;
 
 public class TreinoExistente extends javax.swing.JFrame {
 
+    private javax.swing.JButton AnteriorBTTN;
+    private javax.swing.JLabel DescansoLBL1;
+    private javax.swing.JLabel DescansoLBL2;
+    private javax.swing.JLabel DescansoLBL3;
+    private javax.swing.JLabel DescansoLBL4;
+    private javax.swing.JLabel DescansoLBL5;
+    private javax.swing.JLabel DescansoLBL6;
+    private javax.swing.JLabel DescansoLBL7;
+    private javax.swing.JLabel DescansoLBL8;
+    private javax.swing.JLabel ExercicioLBL1;
+    private javax.swing.JLabel ExercicioLBL2;
+    private javax.swing.JLabel ExercicioLBL3;
+    private javax.swing.JLabel ExercicioLBL4;
+    private javax.swing.JLabel ExercicioLBL5;
+    private javax.swing.JLabel ExercicioLBL6;
+    private javax.swing.JLabel ExercicioLBL7;
+    private javax.swing.JLabel ExercicioLBL8;
+    private javax.swing.JLabel OrdemLBL1;
+    private javax.swing.JLabel OrdemLBL2;
+    private javax.swing.JLabel OrdemLBL3;
+    private javax.swing.JLabel OrdemLBL4;
+    private javax.swing.JLabel OrdemLBL5;
+    private javax.swing.JLabel OrdemLBL6;
+    private javax.swing.JLabel OrdemLBL7;
+    private javax.swing.JLabel OrdemLBL8;
+    private javax.swing.JButton PosteriorBTTN;
+    private javax.swing.JLabel RepLBL1;
+    private javax.swing.JLabel RepLBL2;
+    private javax.swing.JLabel RepLBL3;
+    private javax.swing.JLabel RepLBL4;
+    private javax.swing.JLabel RepLBL5;
+    private javax.swing.JLabel RepLBL6;
+    private javax.swing.JLabel RepLBL7;
+    private javax.swing.JLabel RepLBL8;
+    private javax.swing.JLabel SerieLBL1;
+    private javax.swing.JLabel SerieLBL2;
+    private javax.swing.JLabel SerieLBL3;
+    private javax.swing.JLabel SerieLBL4;
+    private javax.swing.JLabel SerieLBL5;
+    private javax.swing.JLabel SerieLBL6;
+    private javax.swing.JLabel SerieLBL7;
+    private javax.swing.JLabel SerieLBL8;
+    private javax.swing.JLabel diaLBL;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JButton mainFrameBttn;
     private int contador = 1;
     
     public TreinoExistente() throws SQLException {
@@ -80,7 +127,6 @@ public class TreinoExistente extends javax.swing.JFrame {
         return dia;
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
@@ -325,7 +371,7 @@ public class TreinoExistente extends javax.swing.JFrame {
             contador+=1;
         }
         displayTreino(contador);      
-    }//GEN-LAST:event_PosteriorBTTNActionPerformed
+    }
 
     private void AnteriorBTTNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AnteriorBTTNActionPerformed
         if(contador<=1){
@@ -340,17 +386,8 @@ public class TreinoExistente extends javax.swing.JFrame {
         MainFrame mf = new MainFrame();
         setVisible(false);
         mf.setVisible(true);
-    }//GEN-LAST:event_mainFrameBttnActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
+    }
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -367,9 +404,6 @@ public class TreinoExistente extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(TreinoExistente.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-
-        /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 try {
@@ -380,58 +414,4 @@ public class TreinoExistente extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton AnteriorBTTN;
-    private javax.swing.JLabel DescansoLBL1;
-    private javax.swing.JLabel DescansoLBL2;
-    private javax.swing.JLabel DescansoLBL3;
-    private javax.swing.JLabel DescansoLBL4;
-    private javax.swing.JLabel DescansoLBL5;
-    private javax.swing.JLabel DescansoLBL6;
-    private javax.swing.JLabel DescansoLBL7;
-    private javax.swing.JLabel DescansoLBL8;
-    private javax.swing.JLabel ExercicioLBL1;
-    private javax.swing.JLabel ExercicioLBL2;
-    private javax.swing.JLabel ExercicioLBL3;
-    private javax.swing.JLabel ExercicioLBL4;
-    private javax.swing.JLabel ExercicioLBL5;
-    private javax.swing.JLabel ExercicioLBL6;
-    private javax.swing.JLabel ExercicioLBL7;
-    private javax.swing.JLabel ExercicioLBL8;
-    private javax.swing.JLabel OrdemLBL1;
-    private javax.swing.JLabel OrdemLBL2;
-    private javax.swing.JLabel OrdemLBL3;
-    private javax.swing.JLabel OrdemLBL4;
-    private javax.swing.JLabel OrdemLBL5;
-    private javax.swing.JLabel OrdemLBL6;
-    private javax.swing.JLabel OrdemLBL7;
-    private javax.swing.JLabel OrdemLBL8;
-    private javax.swing.JButton PosteriorBTTN;
-    private javax.swing.JLabel RepLBL1;
-    private javax.swing.JLabel RepLBL2;
-    private javax.swing.JLabel RepLBL3;
-    private javax.swing.JLabel RepLBL4;
-    private javax.swing.JLabel RepLBL5;
-    private javax.swing.JLabel RepLBL6;
-    private javax.swing.JLabel RepLBL7;
-    private javax.swing.JLabel RepLBL8;
-    private javax.swing.JLabel SerieLBL1;
-    private javax.swing.JLabel SerieLBL2;
-    private javax.swing.JLabel SerieLBL3;
-    private javax.swing.JLabel SerieLBL4;
-    private javax.swing.JLabel SerieLBL5;
-    private javax.swing.JLabel SerieLBL6;
-    private javax.swing.JLabel SerieLBL7;
-    private javax.swing.JLabel SerieLBL8;
-    private javax.swing.JLabel diaLBL;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JButton mainFrameBttn;
-    // End of variables declaration//GEN-END:variables
 }
