@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
 package frameTreino.diasTreino;
 
 import java.sql.SQLException;
@@ -13,13 +9,63 @@ import javax.swing.JTextField;
 
 public class CriarTreinos extends javax.swing.JFrame {
 
+    private javax.swing.JButton anteriorBttn;
+    private javax.swing.JTextField descansoTF1;
+    private javax.swing.JTextField descansoTF2;
+    private javax.swing.JTextField descansoTF3;
+    private javax.swing.JTextField descansoTF4;
+    private javax.swing.JTextField descansoTF5;
+    private javax.swing.JTextField descansoTF6;
+    private javax.swing.JTextField descansoTF7;
+    private javax.swing.JTextField descansoTF8;
+    private javax.swing.JLabel diaLBL;
+    private javax.swing.JTextField exercicioTF1;
+    private javax.swing.JTextField exercicioTF2;
+    private javax.swing.JTextField exercicioTF3;
+    private javax.swing.JTextField exercicioTF4;
+    private javax.swing.JTextField exercicioTF5;
+    private javax.swing.JTextField exercicioTF6;
+    private javax.swing.JTextField exercicioTF7;
+    private javax.swing.JTextField exercicioTF8;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JButton mainFrameBttN;
+    private javax.swing.JButton nextFrameBttn;
+    private javax.swing.JTextField ordemTF1;
+    private javax.swing.JTextField ordemTF2;
+    private javax.swing.JTextField ordemTF3;
+    private javax.swing.JTextField ordemTF4;
+    private javax.swing.JTextField ordemTF5;
+    private javax.swing.JTextField ordemTF6;
+    private javax.swing.JTextField ordemTF7;
+    private javax.swing.JTextField ordemTF8;
+    private javax.swing.JTextField repTF1;
+    private javax.swing.JTextField repTF2;
+    private javax.swing.JTextField repTF3;
+    private javax.swing.JTextField repTF4;
+    private javax.swing.JTextField repTF5;
+    private javax.swing.JTextField repTF6;
+    private javax.swing.JTextField repTF7;
+    private javax.swing.JTextField repTF8;
+    private javax.swing.JTextField serieTF1;
+    private javax.swing.JTextField serieTF2;
+    private javax.swing.JTextField serieTF3;
+    private javax.swing.JTextField serieTF4;
+    private javax.swing.JTextField serieTF5;
+    private javax.swing.JTextField serieTF6;
+    private javax.swing.JTextField serieTF7;
+    private javax.swing.JTextField serieTF8;
     private int contador = 0;
     
     public CriarTreinos() {
         initComponents();
     }
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         jLabel2 = new javax.swing.JLabel();
@@ -375,30 +421,9 @@ public class CriarTreinos extends javax.swing.JFrame {
                         .addComponent(descansoTF8, javax.swing.GroupLayout.PREFERRED_SIZE, 36, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGap(0, 61, Short.MAX_VALUE)))
         );
-
         pack();
-    }// </editor-fold>//GEN-END:initComponents
-
-    private void ordemTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ordemTF1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_ordemTF1ActionPerformed
-
-    private void exercicioTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exercicioTF1ActionPerformed
-
-    }//GEN-LAST:event_exercicioTF1ActionPerformed
-
-    private void serieTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_serieTF1ActionPerformed
-
-    }//GEN-LAST:event_serieTF1ActionPerformed
-
-    private void repTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_repTF1ActionPerformed
-
-    }//GEN-LAST:event_repTF1ActionPerformed
-
-    private void descansoTF1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_descansoTF1ActionPerformed
-
-    }//GEN-LAST:event_descansoTF1ActionPerformed
-    //MÉTODO PARA VERIFICAR O DIA DO TREINO
+    }
+    }
     private String verificadorDia(int contador){
         String dia = "";
         switch(contador){
@@ -491,25 +516,24 @@ public class CriarTreinos extends javax.swing.JFrame {
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
-    }//GEN-LAST:event_nextFrameBttnActionPerformed
+    }
 
-    private void mainFrameBttNActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mainFrameBttNActionPerformed
+    private void mainFrameBttNActionPerformed(java.awt.event.ActionEvent evt) {
         MainFrame mf = new MainFrame();
         setVisible(false);
         mf.setVisible(true);
-    }//GEN-LAST:event_mainFrameBttNActionPerformed
+    }
 
-    private void anteriorBttnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_anteriorBttnActionPerformed
+    private void anteriorBttnActionPerformed(java.awt.event.ActionEvent evt) {
         if(contador<=0){
             contador = 0;
         }else{
             contador-=1;
         }
         verificadorDia(contador);
-    }//GEN-LAST:event_anteriorBttnActionPerformed
+    }
 
-    public static void main(String args[]) {
-       
+    public static void main(String args[]) {   
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -532,58 +556,4 @@ public class CriarTreinos extends javax.swing.JFrame {
             }
         });
     }
-
-    // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton anteriorBttn;
-    private javax.swing.JTextField descansoTF1;
-    private javax.swing.JTextField descansoTF2;
-    private javax.swing.JTextField descansoTF3;
-    private javax.swing.JTextField descansoTF4;
-    private javax.swing.JTextField descansoTF5;
-    private javax.swing.JTextField descansoTF6;
-    private javax.swing.JTextField descansoTF7;
-    private javax.swing.JTextField descansoTF8;
-    private javax.swing.JLabel diaLBL;
-    private javax.swing.JTextField exercicioTF1;
-    private javax.swing.JTextField exercicioTF2;
-    private javax.swing.JTextField exercicioTF3;
-    private javax.swing.JTextField exercicioTF4;
-    private javax.swing.JTextField exercicioTF5;
-    private javax.swing.JTextField exercicioTF6;
-    private javax.swing.JTextField exercicioTF7;
-    private javax.swing.JTextField exercicioTF8;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
-    private javax.swing.JButton mainFrameBttN;
-    private javax.swing.JButton nextFrameBttn;
-    private javax.swing.JTextField ordemTF1;
-    private javax.swing.JTextField ordemTF2;
-    private javax.swing.JTextField ordemTF3;
-    private javax.swing.JTextField ordemTF4;
-    private javax.swing.JTextField ordemTF5;
-    private javax.swing.JTextField ordemTF6;
-    private javax.swing.JTextField ordemTF7;
-    private javax.swing.JTextField ordemTF8;
-    private javax.swing.JTextField repTF1;
-    private javax.swing.JTextField repTF2;
-    private javax.swing.JTextField repTF3;
-    private javax.swing.JTextField repTF4;
-    private javax.swing.JTextField repTF5;
-    private javax.swing.JTextField repTF6;
-    private javax.swing.JTextField repTF7;
-    private javax.swing.JTextField repTF8;
-    private javax.swing.JTextField serieTF1;
-    private javax.swing.JTextField serieTF2;
-    private javax.swing.JTextField serieTF3;
-    private javax.swing.JTextField serieTF4;
-    private javax.swing.JTextField serieTF5;
-    private javax.swing.JTextField serieTF6;
-    private javax.swing.JTextField serieTF7;
-    private javax.swing.JTextField serieTF8;
-    // End of variables declaration//GEN-END:variables
 }
