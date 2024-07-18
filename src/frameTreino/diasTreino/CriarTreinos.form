@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="mainFrameBttN" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace pref="219" max="32767" attributes="0"/>
+              <Component id="anteriorBttn" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="nextFrameBttn" min="-2" pref="110" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="diaLBL" alignment="0" min="-2" pref="572" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel3" min="-2" pref="60" max="-2" attributes="0"/>
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" pref="179" max="-2" attributes="0"/>
+                          <EmptySpace min="11" pref="11" max="-2" attributes="0"/>
+                          <Component id="jLabel5" min="-2" pref="93" max="-2" attributes="0"/>
+                          <EmptySpace min="7" pref="7" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" pref="98" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="470" pref="470" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="92" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF1" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF1" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF1" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF1" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF1" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF2" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF2" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF2" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF2" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF2" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF3" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF3" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF3" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF3" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF3" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF4" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF4" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF4" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF4" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF4" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF5" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF5" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF5" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF5" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF5" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF6" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF6" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF6" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF6" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF6" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF7" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF7" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF7" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF7" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF7" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Component id="ordemTF8" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                          <Component id="exercicioTF8" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="serieTF8" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                          <Component id="repTF8" min="-2" pref="110" max="-2" attributes="0"/>
+                          <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                          <Component id="descansoTF8" min="-2" pref="90" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="477" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nextFrameBttn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="mainFrameBttN" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  <Component id="anteriorBttn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+          </Group>
+          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="0" pref="14" max="32767" attributes="0"/>
+                  <Component id="diaLBL" min="-2" pref="66" max="-2" attributes="0"/>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jLabel3" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel5" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="0" min="-2" pref="46" max="-2" attributes="0"/>
+                      <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF1" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF1" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF1" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF1" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF1" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF2" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF3" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF4" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF5" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF5" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF5" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF5" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF5" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="4" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="ordemTF8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="exercicioTF8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="serieTF8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="repTF8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                      <Component id="descansoTF8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="61" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="REPETI&#xc7;&#xd5;ES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="ORDEM"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="EXERC&#xcd;CIO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="S&#xc9;RIES"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="DESCANSO"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF8">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ordemTF1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF7">
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="570" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="570" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="2" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JButton" name="nextFrameBttn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Pr&#xf3;ximo -&gt;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nextFrameBttnActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="ordemTF7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF8">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="exercicioTF1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="exercicioTF7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF8">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="serieTF1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="serieTF7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF8">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="repTF1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="diaLBL">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="99" red="cc" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="SEGUNDA-FEIRA"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="repTF7">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF8">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descansoTF1">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="descansoTF1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="mainFrameBttN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tela Principal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mainFrameBttNActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="anteriorBttn">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&lt;- Anterior"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="anteriorBttnActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
